@@ -30,8 +30,8 @@ const About = () => {
         >
           My name is Kunwar Kamran Khan and I am a graduate from NIT
           Allahabad(2024). I have a keen interest in Competitive programming,
-          Data Structures and Algorithms (codeforces-pupil, codechef- 4 star,
-          leetcode 500+ problems) coupled with practical experience in projects
+          Data Structures and Algorithms (<a className="underline underline-offset-4 italic font-semibold" href="https://codeforces.com/profile/007kam.khan">Codeforces</a> - pupil, <a className="underline underline-offset-4 italic font-semibold" href="https://www.codechef.com/users/tle_kam">Codechef</a> - 4 star,
+          <a className="underline underline-offset-4 italic font-semibold" href="https://leetcode.com/u/kira-999/">Leetcode</a> 500+ problems) coupled with practical experience in projects
           based on react frameworks in Javascript.
         </motion.p>
 

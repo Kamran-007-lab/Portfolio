@@ -1,13 +1,9 @@
 import React from "react";
 import ray from "../assets/portfolio/ray.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
 import minderhome from "../assets/portfolio/minderhome.jpg"
 import profilefyi from "../assets/portfolio/profilefyi.jpg"
 import portfolio from "../assets/portfolio/portfolio.jpg"
 import movie from "../assets/portfolio/movie.jpg"
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
 
@@ -16,27 +12,32 @@ const Projects = () => {
     {
       id: 1,
       src: minderhome,
-      value:'Minder'
+      value:'Minder',
+      url:'https://github.com/Kamran-007-lab/Minder'
     },
     {
       id: 2,
       src: profilefyi,
-      value:'Profile.fyi'
+      value:'Profile.fyi',
+      url:'https://github.com/Kamran-007-lab/Profilefyi'
     },
     {
       id: 3,
       src: portfolio,
-      value: 'Portfolio'
+      value: 'Portfolio',
+      url:'https://github.com/Kamran-007-lab/Portfolio'
     },
     {
       id: 4,
       src: ray,
-      value: 'R.A.Y.'
+      value: 'R.A.Y.',
+      url:'https://github.com/Kamran-007-lab/RAY'
     },
     {
       id: 5,
       src: movie,
-      value: 'Movie Catalogue'
+      value: 'Movie Catalogue',
+      url:'https://github.com/Kamran-007-lab/Movies-Catalogue'
     },
   ];
 
@@ -67,7 +68,7 @@ const Projects = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
         >
-          {portfolios.map(({ id, src, value }) => (
+          {portfolios.map(({ id, src, value, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -75,9 +76,11 @@ const Projects = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
+              <a href={url}>
                 <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-xl">
                   {value}
                 </button>
+                </a>
                 
               </div>
             </div>
