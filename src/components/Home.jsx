@@ -49,7 +49,7 @@ const Home = () => {
             viewport={{ once: false, amount: 0.7 }}
           >
             <Link
-              to="portfolio"
+              to="projects"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-700 to-gray-400 cursor-pointer"

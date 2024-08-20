@@ -7,9 +7,10 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import arduino from "../assets/arduino.png";
-import graphql from "../assets/graphql.png";
+import sql from "../assets/sql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import clogo from "../assets/clogo.png"
 
 const Technologies = () => {
   const techs = [
@@ -35,7 +36,7 @@ const Technologies = () => {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-cyan-500",
     },
     {
       id: 5,
@@ -51,15 +52,21 @@ const Technologies = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: sql,
+      title: "SQL",
+      style: "shadow-blue-600",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-black",
+    },
+    {
+      id: 9,
+      src: clogo,
+      title: "C++",
+      style: "shadow-sky-800",
     },
   ];
 
@@ -76,9 +83,9 @@ const Technologies = () => {
           viewport={{ once: false, amount: 0.7 }}
         >
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Tech Stack
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6 text-xl">These are the technologies I've worked with</p>
         </motion.div>
 
         <motion.div
@@ -91,7 +98,7 @@ const Technologies = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
