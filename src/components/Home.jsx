@@ -13,7 +13,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-gray-300 via-white to-gray-300"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row lg:gap-x-12">
-        <div className="flex flex-col justify-center h-full w-full">
+        <div className="flex flex-col justify-center  mt-28 md:mt-0 h-full w-full">
           <motion.h2
             variants={fadeIn("up", 0.3)}
             initial="hidden"
