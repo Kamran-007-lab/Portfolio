@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="h-screen w-full bg-gradient-to-b from-gray-300 via-white to-gray-300"
+      className="h-auto md:h-screen w-full bg-gradient-to-b from-gray-300 via-white to-gray-300 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row lg:gap-x-12">
         <div className="flex flex-col justify-center  mt-28 md:mt-0 h-full w-full">
@@ -39,7 +39,7 @@ const Home = () => {
           >
             I am a highly motivated, focused and hard working individual with a
             passion for learning and honing new skills. Dedicated to the
-            institution's overall success .
+            institution's overall success.
           </motion.p>
 
           <motion.div
@@ -62,7 +62,7 @@ const Home = () => {
           </motion.div>
         </div>
 
-        <div className="inline-block w-full">
+        <div className="inline-block w-5/6 p-3">
           <motion.img
             variants={fadeIn("down", 0.5)}
             initial="hidden"

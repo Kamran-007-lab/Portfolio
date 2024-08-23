@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full h-screen bg-gradient-to-b from-gray-300 via-white to-gray-300 text-black"
+      className="w-full h-auto bg-gradient-to-b from-gray-300 via-white to-gray-300 text-black"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <motion.div

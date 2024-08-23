@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="bg-gradient-to-b from-gray-300 via-white to-gray-300  w-full text-black md:h-screen"
+      className="bg-gradient-to-b from-gray-300 via-white to-gray-300  w-full text-black md:h-auto"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <motion.div
@@ -61,7 +61,7 @@ const Projects = () => {
         </motion.div>
 
         <div
-          className="grid  sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 md:px-12 "
         >
           {portfolios.map(({ id, src, value, url }) => (
             <motion.div
