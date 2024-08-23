@@ -11,62 +11,57 @@ import sql from "../assets/sql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import clogo from "../assets/clogo.png";
+import mongodb from "../assets/mongodb.png"
 
 const Technologies = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 2,
       src: reactImage,
       title: "React",
       style: "shadow-cyan-500",
     },
     {
-      id: 5,
+      id: 3,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-teal-500",
     },
     {
-      id: 6,
+      id: 4,
       src: arduino,
       title: "Arduino",
       style: "shadow-teal-700",
     },
     {
-      id: 7,
+      id: 5,
       src: sql,
       title: "SQL",
       style: "shadow-blue-600",
     },
     {
-      id: 8,
+      id: 6,
       src: github,
       title: "GitHub",
       style: "shadow-black",
     },
     {
-      id: 9,
+      id: 7,
       src: clogo,
       title: "C++",
       style: "shadow-sky-800",
+    },
+    {
+      id: 8,
+      src: mongodb,
+      title: "Mongo DB",
+      style: "shadow-green-600",
     },
   ];
 
