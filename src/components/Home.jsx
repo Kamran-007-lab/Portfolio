@@ -9,7 +9,7 @@ import { fadeIn } from "./variants";
 const Home = () => {
   return (
     <div
-      name="home"
+      id="home"
       className="h-screen w-full bg-gradient-to-b from-gray-300 via-white to-gray-300"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row lg:gap-x-12">

@@ -5,7 +5,7 @@ import { fadeIn } from "./variants";
 const About = () => {
   return (
     <div
-      name="about"
+      id="about"
       className="w-full h-screen bg-gradient-to-b from-gray-300 via-white to-gray-300  text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-black">

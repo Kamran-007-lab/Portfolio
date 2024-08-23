@@ -29,11 +29,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gray fixed">
+    <div id="over-flow" className="flex justify-between items-center w-full h-20 px-4 text-white bg-gray fixed">
       <div className="pt-3">
         <h1 className="text-6xl font-signature ml-2 text-black">Kamran</h1>
       </div>
 
+      
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
@@ -46,6 +47,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      
 
       <div
         onClick={() => setNav(!nav)}

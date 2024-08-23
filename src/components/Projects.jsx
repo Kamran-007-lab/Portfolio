@@ -43,8 +43,8 @@ const Projects = () => {
 
   return (
     <div
-      name="projects"
-      e
+      id="projects"
+      
       className="bg-gradient-to-b from-gray-300 via-white to-gray-300  w-full text-black md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -66,7 +66,7 @@ const Projects = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
+          className="grid  sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
         >
           {portfolios.map(({ id, src, value, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
