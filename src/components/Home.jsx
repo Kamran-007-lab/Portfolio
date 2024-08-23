@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { fadeIn } from "./variants";
+import { fadeIn } from "./variants.jsx";
 
 const Home = () => {
   return (
