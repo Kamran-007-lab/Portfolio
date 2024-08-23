@@ -64,7 +64,7 @@ const Home = () => {
 
         <div className="inline-block w-5/6 p-3">
           <motion.img
-            variants={fadeIn("down", 0.5)}
+            variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}

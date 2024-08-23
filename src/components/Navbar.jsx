@@ -51,7 +51,7 @@ const Navbar = () => {
       
 
       <div
-        onClick={() => setNav(!nav)}
+        // onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-black md:hidden"
       >
         {nav ? <FaTimes size={50} /> : <img src={k} className="h-16 w-16 rounded-full hover:scale-125 duration-200"/>}
