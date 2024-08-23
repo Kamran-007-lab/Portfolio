@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "./variants.jsx";
+import  fadeIn  from "./fadeIn.jsx";
 
 const Contact = () => {
   return (

@@ -5,7 +5,7 @@ import profilefyi from "../assets/portfolio/profilefyi.jpg"
 import portfolio from "../assets/portfolio/portfolio.jpg"
 import movie from "../assets/portfolio/movie.jpg"
 import { motion } from "framer-motion";
-import { fadeIn } from "./variants.jsx";
+import  fadeIn  from "./fadeIn.jsx";
 
 const Projects = () => {
   const portfolios = [
