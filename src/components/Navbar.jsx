@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import k from "../assets/k.gif"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,7 @@ const Navbar = () => {
   return (
     <div id="over-flow" className="flex justify-between items-center w-full h-20 px-4 text-white bg-gray fixed">
       <div className="pt-3">
-        <h1 className="text-6xl font-signature ml-2 text-black">Kamran</h1>
+        <h1 className="text-6xl hidden md:inline-block font-signature ml-2 text-black">Kamran</h1>
       </div>
 
       
@@ -53,7 +54,7 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-black md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={50} /> : <img src={k} className="h-16 w-16 rounded-full"/>}
       </div>
 
       {nav && (
@@ -81,18 +82,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-{/* <TypeAnimation
-sequence={[
-'Developer',
-2000,
-'Designer',
-2000,
-'Youtuber',
-2000,
-]}
-speed={50}
-className='☐ text-accent'
-wrapper='span'
-repeat={Infinity}
-/> */}

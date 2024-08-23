@@ -19,11 +19,11 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-4xl pr-8 sm:text-7xl font-bold text-black"
+            className="text-4xl sm:text-7xl font-bold text-black"
           >
             I'm a
             <TypeAnimation
-              sequence={["Developer", 2000, "Designer", 2000, "Fresher", 2000]}
+              sequence={["Programmer",2000,"Developer", 2000, "Designer", 2000, "Fresher", 2000]}
               speed={50}
               className=" text-4xl font-bold text-black w-full"
               wrapper="p"
@@ -62,7 +62,7 @@ const Home = () => {
           </motion.div>
         </div>
 
-        <div className="inline-block">
+        <div className="inline-block w-full">
           <motion.img
             variants={fadeIn("down", 0.5)}
             initial="hidden"
@@ -70,7 +70,7 @@ const Home = () => {
             viewport={{ once: false, amount: 0.7 }}
             src={HeroImage}
             alt="my profile"
-            className="rounded-full mx-auto w-2/3 shadow-black shadow-2xl"
+            className="rounded-full mx-auto w-full h-full shadow-black shadow-2xl"
           />
         </div>
       </div>
